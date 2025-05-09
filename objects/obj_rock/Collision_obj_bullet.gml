@@ -10,6 +10,7 @@ if sprite_index == spr_rock_big {
 	sprite_index = spr_rock_small;
 	
 	// Cria uma cópia da instância na exata mesma posição da que foi destruída
+	// 2x pedras
 	instance_copy(true);
 }
 
